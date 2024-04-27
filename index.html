@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="flex-container">
+        <div class="logo">Riedel</div>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-project">Project</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="portfol">
+        <h1>Welcome to my Website</h1>
+        <p>This website is a personal website</p>
+        <a href="#" id="view">View Me</a>
+      </div>
+    </header>
+
+    <div class="about-me" id="about-me">
+      <h2 class="about-h2">About Me</h2>
+      <p>
+        I am a Candidate's of BSc at the BlueCrest University, Studying computer
+        Programming, <br />
+        specializing in software Engineering.
+      </p>
+
+      <div class="aboutme-container">
+        <div>
+          <p class="below">
+            below are some of the languages I have learn in programming so far:
+          </p>
+          <br />
+
+          <ul>
+            <li>C++</li>
+            <li>Javascript</li>
+            <li>SQL Database</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="img-section">
+          <img src="riedel-contact.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section class="container1" id="my-project">
+      <h4>My Projects</h4>
+
+      <div class="flex-project">
+        <div>
+          <h5>Blogger</h5>
+          <p>
+            I am a well known blogger in the country that you can trust in term
+            of your business advertisement.
+          </p>
+          <a href="#" class="blogger">See More</a>
+        </div>
+        <div>
+          <h5>Advertisement</h5>
+          <p>
+            I am a well known blogger in the country that you can trust in term
+            of your business advertisement.
+          </p>
+          <a href="#" class="blogger">See More</a>
+        </div>
+        <div>
+          <h5>Software Engineer</h5>
+          <p>
+            I am a well known blogger in the country that you can trust in term
+            of your business advertisement.
+          </p>
+          <a href="#" class="blogger">See More</a>
+        </div>
+      </div>
+    </section>
+    <section class="form-div" id="contact-me">
+      <h3>Contact Me</h3>
+      <p>Use the below field to contact me</p>
+      <div class="form1">
+        <form action="">
+          <label for="#fullname">Full Name:</label>
+          <input type="text" id="fullname" required  placeholder="Riedel Johns"/> <br />
+          <br />
+          <label for="#emailaddress"> Email Address:</label>
+          <input
+            type="email"
+            id="emailaddress"
+            required
+            placeholder="Enter your email"
+          />
+          <br />
+          <br />
+          <label for="fullname">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+          <br />
+          <br />
+          <button type="submit"><a href="#">Send</a></button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
